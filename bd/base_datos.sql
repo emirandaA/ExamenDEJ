@@ -138,6 +138,8 @@ INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUE
 INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUES (2, 'Plaza de Armas - Concepcion');
 INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUES (3, 'Mirador el Sol - Quilpue');
 INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUES (4, 'Plaza Civica - Valparaiso');
+INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUES (5, 'Cerro Santa Lucia - Santiago');
+INSERT INTO `autopark_db`.`Estacionamiento` (`idEstacionamiento`, `lugar`) VALUES (6, 'Plaza de Armas - Chillan');
 
 COMMIT;
 
