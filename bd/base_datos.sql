@@ -102,6 +102,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 START TRANSACTION;
 USE `autopark_db`;
 INSERT INTO `autopark_db`.`Usuario` (`idUsuario`, `usuario`, `password`) VALUES (1, '19128620', '19128620');
+INSERT INTO `autopark_db`.`Usuario` (`idUsuario`, `usuario`, `password`) VALUES (1, '19209255', '19209255');
 
 COMMIT;
 
@@ -112,7 +113,8 @@ COMMIT;
 START TRANSACTION;
 USE `autopark_db`;
 INSERT INTO `autopark_db`.`Cliente` (`rut_cliente`, `nombre`, `telefono`, `email`) VALUES (19128620, 'Jacob Olivares', 968038777, 'jaco.olivares@alumnos.duoc.cl');
-
+INSERT INTO `autopark_db`.`Cliente` (`rut_cliente`, `nombre`, `telefono`, `email`) VALUES (19209255, 'Esteban Miranda', 973854193, 'es.mirandaa@alumnos.duoc.cl');
+               
 COMMIT;
 
 
